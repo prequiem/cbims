@@ -1,0 +1,21 @@
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-06 16:58:28 [3492] [INFO] Starting gunicorn 18.0
+2014-05-06 16:58:28 [3492] [DEBUG] Arbiter booted
+2014-05-06 16:58:28 [3492] [INFO] Listening at: http://127.0.0.1:8080 (3492)
+2014-05-06 16:58:28 [3492] [INFO] Using worker: sync
+2014-05-06 16:58:28 [3499] [INFO] Booting worker with pid: 3499
+2014-05-06 16:58:28 [3500] [INFO] Booting worker with pid: 3500
+2014-05-06 08:59:11 [3499] [DEBUG] GET /
+2014-05-06 08:59:11 [3499] [DEBUG] GET /favicon.ico
+2014-05-06 08:59:11 [3499] [DEBUG] GET /favicon.ico
