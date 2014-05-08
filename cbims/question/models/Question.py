@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes import generic
-
+from website.models import Tag
 from website.constant import *
 
 class Question(models.Model):
