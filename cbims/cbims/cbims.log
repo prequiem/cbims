@@ -121,3 +121,191 @@
 2014-05-08 14:27:05 [852] [CRITICAL] WORKER TIMEOUT (pid:982)
 2014-05-08 14:27:05 [2439] [INFO] Booting worker with pid: 2439
 2014-05-08 14:27:05 [2440] [INFO] Booting worker with pid: 2440
+2014-05-08 09:49:59 [2440] [INFO] Worker exiting (pid: 2440)
+2014-05-08 09:49:59 [2439] [INFO] Worker exiting (pid: 2439)
+2014-05-08 17:49:59 [852] [INFO] Handling signal: term
+2014-05-08 17:50:00 [852] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-12 10:02:44 [916] [INFO] Starting gunicorn 18.0
+2014-05-12 10:02:44 [916] [DEBUG] Arbiter booted
+2014-05-12 10:02:44 [916] [INFO] Listening at: http://127.0.0.1:8080 (916)
+2014-05-12 10:02:44 [916] [INFO] Using worker: sync
+2014-05-12 10:02:44 [1416] [INFO] Booting worker with pid: 1416
+2014-05-12 10:02:44 [1417] [INFO] Booting worker with pid: 1417
+2014-05-12 10:02:56 [916] [CRITICAL] WORKER TIMEOUT (pid:1416)
+2014-05-12 10:02:56 [916] [CRITICAL] WORKER TIMEOUT (pid:1417)
+2014-05-12 10:02:56 [916] [CRITICAL] WORKER TIMEOUT (pid:1416)
+2014-05-12 10:02:56 [916] [CRITICAL] WORKER TIMEOUT (pid:1417)
+2014-05-12 10:02:56 [916] [CRITICAL] WORKER TIMEOUT (pid:1417)
+2014-05-12 10:02:56 [2324] [INFO] Booting worker with pid: 2324
+2014-05-12 10:02:56 [2327] [INFO] Booting worker with pid: 2327
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-13 11:22:59 [874] [INFO] Starting gunicorn 18.0
+2014-05-13 11:22:59 [874] [DEBUG] Arbiter booted
+2014-05-13 11:22:59 [874] [INFO] Listening at: http://127.0.0.1:8080 (874)
+2014-05-13 11:22:59 [874] [INFO] Using worker: sync
+2014-05-13 11:22:59 [1431] [INFO] Booting worker with pid: 1431
+2014-05-13 11:22:59 [1437] [INFO] Booting worker with pid: 1437
+2014-05-13 11:23:58 [874] [CRITICAL] WORKER TIMEOUT (pid:1437)
+2014-05-13 11:23:58 [874] [CRITICAL] WORKER TIMEOUT (pid:1431)
+2014-05-13 11:23:58 [874] [CRITICAL] WORKER TIMEOUT (pid:1437)
+2014-05-13 11:23:58 [874] [CRITICAL] WORKER TIMEOUT (pid:1431)
+2014-05-13 11:23:58 [874] [CRITICAL] WORKER TIMEOUT (pid:1431)
+2014-05-13 11:23:58 [3184] [INFO] Booting worker with pid: 3184
+2014-05-13 11:23:58 [3186] [INFO] Booting worker with pid: 3186
+2014-05-13 06:26:27 [3186] [INFO] Worker exiting (pid: 3186)
+2014-05-13 06:26:27 [3184] [INFO] Worker exiting (pid: 3184)
+2014-05-13 14:26:27 [874] [INFO] Handling signal: term
+2014-05-13 14:26:27 [874] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-13 14:27:13 [883] [INFO] Starting gunicorn 18.0
+2014-05-13 14:27:13 [883] [DEBUG] Arbiter booted
+2014-05-13 14:27:13 [883] [INFO] Listening at: http://127.0.0.1:8080 (883)
+2014-05-13 14:27:13 [883] [INFO] Using worker: sync
+2014-05-13 14:27:13 [1233] [INFO] Booting worker with pid: 1233
+2014-05-13 14:27:13 [1235] [INFO] Booting worker with pid: 1235
+2014-05-13 14:27:24 [883] [CRITICAL] WORKER TIMEOUT (pid:1233)
+2014-05-13 14:27:24 [883] [CRITICAL] WORKER TIMEOUT (pid:1235)
+2014-05-13 14:27:24 [883] [CRITICAL] WORKER TIMEOUT (pid:1233)
+2014-05-13 14:27:24 [883] [CRITICAL] WORKER TIMEOUT (pid:1235)
+2014-05-13 14:27:24 [883] [CRITICAL] WORKER TIMEOUT (pid:1233)
+2014-05-13 14:27:24 [2434] [INFO] Booting worker with pid: 2434
+2014-05-13 14:27:24 [2435] [INFO] Booting worker with pid: 2435
+2014-05-13 09:20:09 [2434] [INFO] Worker exiting (pid: 2434)
+2014-05-13 09:20:09 [2435] [INFO] Worker exiting (pid: 2435)
+2014-05-13 17:20:09 [883] [INFO] Handling signal: term
+2014-05-13 17:20:09 [883] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-14 09:44:43 [905] [INFO] Starting gunicorn 18.0
+2014-05-14 09:44:43 [905] [DEBUG] Arbiter booted
+2014-05-14 09:44:43 [905] [INFO] Listening at: http://127.0.0.1:8080 (905)
+2014-05-14 09:44:43 [905] [INFO] Using worker: sync
+2014-05-14 09:44:43 [1353] [INFO] Booting worker with pid: 1353
+2014-05-14 09:44:43 [1363] [INFO] Booting worker with pid: 1363
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-15 10:32:00 [869] [INFO] Starting gunicorn 18.0
+2014-05-15 10:32:00 [869] [DEBUG] Arbiter booted
+2014-05-15 10:32:00 [869] [INFO] Listening at: http://127.0.0.1:8080 (869)
+2014-05-15 10:32:00 [869] [INFO] Using worker: sync
+2014-05-15 10:32:00 [1171] [INFO] Booting worker with pid: 1171
+2014-05-15 10:32:00 [1190] [INFO] Booting worker with pid: 1190
+2014-05-15 10:32:05 [869] [CRITICAL] WORKER TIMEOUT (pid:1171)
+2014-05-15 10:32:05 [869] [CRITICAL] WORKER TIMEOUT (pid:1190)
+2014-05-15 10:32:05 [869] [CRITICAL] WORKER TIMEOUT (pid:1171)
+2014-05-15 10:32:05 [869] [CRITICAL] WORKER TIMEOUT (pid:1190)
+2014-05-15 10:32:05 [869] [CRITICAL] WORKER TIMEOUT (pid:1190)
+2014-05-15 10:32:05 [2439] [INFO] Booting worker with pid: 2439
+2014-05-15 10:32:05 [2441] [INFO] Booting worker with pid: 2441
+2014-05-15 06:25:48 [2441] [INFO] Worker exiting (pid: 2441)
+2014-05-15 06:25:48 [2439] [INFO] Worker exiting (pid: 2439)
+2014-05-15 14:25:48 [869] [INFO] Handling signal: term
+2014-05-15 14:25:48 [869] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-15 14:27:22 [897] [INFO] Starting gunicorn 18.0
+2014-05-15 14:27:22 [897] [DEBUG] Arbiter booted
+2014-05-15 14:27:22 [897] [INFO] Listening at: http://127.0.0.1:8080 (897)
+2014-05-15 14:27:22 [897] [INFO] Using worker: sync
+2014-05-15 14:27:22 [1151] [INFO] Booting worker with pid: 1151
+2014-05-15 14:27:22 [1158] [INFO] Booting worker with pid: 1158
+2014-05-15 14:27:34 [897] [CRITICAL] WORKER TIMEOUT (pid:1158)
+2014-05-15 14:27:34 [897] [CRITICAL] WORKER TIMEOUT (pid:1151)
+2014-05-15 14:27:34 [897] [CRITICAL] WORKER TIMEOUT (pid:1158)
+2014-05-15 14:27:34 [897] [CRITICAL] WORKER TIMEOUT (pid:1151)
+2014-05-15 14:27:34 [897] [CRITICAL] WORKER TIMEOUT (pid:1158)
+2014-05-15 14:27:34 [2268] [INFO] Booting worker with pid: 2268
+2014-05-15 14:27:34 [2270] [INFO] Booting worker with pid: 2270
+2014-05-15 09:01:58 [2270] [INFO] Worker exiting (pid: 2270)
+2014-05-15 09:01:58 [2268] [INFO] Worker exiting (pid: 2268)
+2014-05-15 17:01:58 [897] [INFO] Handling signal: term
+2014-05-15 17:01:58 [897] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-19 09:39:54 [862] [INFO] Starting gunicorn 18.0
+2014-05-19 09:39:54 [862] [DEBUG] Arbiter booted
+2014-05-19 09:39:54 [862] [INFO] Listening at: http://127.0.0.1:8080 (862)
+2014-05-19 09:39:54 [862] [INFO] Using worker: sync
+2014-05-19 09:39:54 [1331] [INFO] Booting worker with pid: 1331
+2014-05-19 09:39:54 [1337] [INFO] Booting worker with pid: 1337
+2014-05-19 09:40:08 [862] [CRITICAL] WORKER TIMEOUT (pid:1337)
+2014-05-19 09:40:08 [862] [CRITICAL] WORKER TIMEOUT (pid:1331)
+2014-05-19 09:40:08 [862] [CRITICAL] WORKER TIMEOUT (pid:1337)
+2014-05-19 09:40:08 [862] [CRITICAL] WORKER TIMEOUT (pid:1331)
+2014-05-19 09:40:08 [862] [CRITICAL] WORKER TIMEOUT (pid:1331)
+2014-05-19 09:40:08 [2184] [INFO] Booting worker with pid: 2184
+2014-05-19 09:40:08 [2185] [INFO] Booting worker with pid: 2185
