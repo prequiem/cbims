@@ -309,3 +309,370 @@
 2014-05-19 09:40:08 [862] [CRITICAL] WORKER TIMEOUT (pid:1331)
 2014-05-19 09:40:08 [2184] [INFO] Booting worker with pid: 2184
 2014-05-19 09:40:08 [2185] [INFO] Booting worker with pid: 2185
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-20 15:16:19 [909] [INFO] Starting gunicorn 18.0
+2014-05-20 15:16:19 [909] [DEBUG] Arbiter booted
+2014-05-20 15:16:19 [909] [INFO] Listening at: http://127.0.0.1:8080 (909)
+2014-05-20 15:16:19 [909] [INFO] Using worker: sync
+2014-05-20 15:16:19 [1476] [INFO] Booting worker with pid: 1476
+2014-05-20 15:16:20 [1481] [INFO] Booting worker with pid: 1481
+2014-05-20 07:30:41 [1481] [INFO] Worker exiting (pid: 1481)
+2014-05-20 07:30:41 [1476] [INFO] Worker exiting (pid: 1476)
+2014-05-20 15:30:41 [909] [INFO] Handling signal: term
+2014-05-20 15:30:41 [909] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-20 15:30:41 [3497] [INFO] Starting gunicorn 18.0
+2014-05-20 15:30:41 [3497] [DEBUG] Arbiter booted
+2014-05-20 15:30:41 [3497] [INFO] Listening at: http://127.0.0.1:8080 (3497)
+2014-05-20 15:30:41 [3497] [INFO] Using worker: sync
+2014-05-20 15:30:41 [3504] [INFO] Booting worker with pid: 3504
+2014-05-20 15:30:41 [3505] [INFO] Booting worker with pid: 3505
+2014-05-20 07:31:28 [3504] [DEBUG] GET /
+2014-05-20 07:31:29 [3505] [DEBUG] GET /favicon.ico
+2014-05-20 07:31:29 [3505] [DEBUG] Ignoring EPIPE
+2014-05-20 07:31:29 [3504] [DEBUG] GET /favicon.ico
+2014-05-20 07:32:22 [3505] [DEBUG] GET /
+2014-05-20 07:32:25 [3504] [DEBUG] GET /
+2014-05-20 07:32:29 [3505] [INFO] Worker exiting (pid: 3505)
+2014-05-20 15:32:29 [3497] [INFO] Handling signal: term
+2014-05-20 07:32:29 [3504] [INFO] Worker exiting (pid: 3504)
+2014-05-20 15:32:29 [3497] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-20 15:32:29 [3600] [INFO] Starting gunicorn 18.0
+2014-05-20 15:32:29 [3600] [DEBUG] Arbiter booted
+2014-05-20 15:32:29 [3600] [INFO] Listening at: http://127.0.0.1:8080 (3600)
+2014-05-20 15:32:29 [3600] [INFO] Using worker: sync
+2014-05-20 15:32:29 [3607] [INFO] Booting worker with pid: 3607
+2014-05-20 15:32:29 [3608] [INFO] Booting worker with pid: 3608
+2014-05-20 07:32:30 [3608] [DEBUG] GET /
+2014-05-20 07:32:46 [3607] [INFO] Worker exiting (pid: 3607)
+2014-05-20 15:32:46 [3600] [INFO] Handling signal: term
+2014-05-20 07:32:46 [3608] [INFO] Worker exiting (pid: 3608)
+2014-05-20 15:32:46 [3600] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-20 15:32:46 [3621] [INFO] Starting gunicorn 18.0
+2014-05-20 15:32:46 [3621] [DEBUG] Arbiter booted
+2014-05-20 15:32:46 [3621] [INFO] Listening at: http://127.0.0.1:8080 (3621)
+2014-05-20 15:32:46 [3621] [INFO] Using worker: sync
+2014-05-20 15:32:46 [3628] [INFO] Booting worker with pid: 3628
+2014-05-20 15:32:46 [3629] [INFO] Booting worker with pid: 3629
+2014-05-20 07:32:47 [3629] [DEBUG] GET /
+2014-05-20 07:32:49 [3628] [DEBUG] GET /
+2014-05-20 07:33:28 [3628] [INFO] Worker exiting (pid: 3628)
+2014-05-20 07:33:28 [3629] [INFO] Worker exiting (pid: 3629)
+2014-05-20 15:33:28 [3621] [INFO] Handling signal: term
+2014-05-20 15:33:28 [3621] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-20 15:33:28 [3643] [INFO] Starting gunicorn 18.0
+2014-05-20 15:33:28 [3643] [DEBUG] Arbiter booted
+2014-05-20 15:33:28 [3643] [INFO] Listening at: http://127.0.0.1:8080 (3643)
+2014-05-20 15:33:28 [3643] [INFO] Using worker: sync
+2014-05-20 15:33:28 [3650] [INFO] Booting worker with pid: 3650
+2014-05-20 15:33:28 [3651] [INFO] Booting worker with pid: 3651
+2014-05-20 07:33:29 [3651] [DEBUG] GET /
+2014-05-20 07:35:04 [3650] [INFO] Worker exiting (pid: 3650)
+2014-05-20 07:35:04 [3651] [INFO] Worker exiting (pid: 3651)
+2014-05-20 15:35:04 [3643] [INFO] Handling signal: term
+2014-05-20 15:35:04 [3643] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-20 15:35:04 [3671] [INFO] Starting gunicorn 18.0
+2014-05-20 15:35:04 [3671] [DEBUG] Arbiter booted
+2014-05-20 15:35:04 [3671] [INFO] Listening at: http://127.0.0.1:8080 (3671)
+2014-05-20 15:35:04 [3671] [INFO] Using worker: sync
+2014-05-20 15:35:04 [3678] [INFO] Booting worker with pid: 3678
+2014-05-20 15:35:05 [3679] [INFO] Booting worker with pid: 3679
+2014-05-20 07:35:06 [3678] [DEBUG] GET /
+2014-05-20 07:46:57 [3679] [INFO] Worker exiting (pid: 3679)
+2014-05-20 07:46:57 [3678] [INFO] Worker exiting (pid: 3678)
+2014-05-20 15:46:57 [3671] [INFO] Handling signal: term
+2014-05-20 15:46:57 [3671] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-20 15:46:57 [3755] [INFO] Starting gunicorn 18.0
+2014-05-20 15:46:57 [3755] [DEBUG] Arbiter booted
+2014-05-20 15:46:57 [3755] [INFO] Listening at: http://127.0.0.1:8080 (3755)
+2014-05-20 15:46:57 [3755] [INFO] Using worker: sync
+2014-05-20 15:46:57 [3762] [INFO] Booting worker with pid: 3762
+2014-05-20 15:46:57 [3763] [INFO] Booting worker with pid: 3763
+2014-05-20 07:46:58 [3763] [DEBUG] GET /
+2014-05-20 07:51:53 [3763] [DEBUG] GET /
+2014-05-20 07:55:26 [3762] [DEBUG] GET /
+2014-05-20 07:59:04 [3762] [DEBUG] GET /
+2014-05-20 08:03:15 [3762] [DEBUG] GET /
+2014-05-20 08:03:22 [3763] [INFO] Worker exiting (pid: 3763)
+2014-05-20 16:03:22 [3755] [INFO] Handling signal: term
+2014-05-20 08:03:22 [3762] [INFO] Worker exiting (pid: 3762)
+2014-05-20 16:03:22 [3755] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-20 16:03:22 [3875] [INFO] Starting gunicorn 18.0
+2014-05-20 16:03:22 [3875] [DEBUG] Arbiter booted
+2014-05-20 16:03:22 [3875] [INFO] Listening at: http://127.0.0.1:8080 (3875)
+2014-05-20 16:03:22 [3875] [INFO] Using worker: sync
+2014-05-20 16:03:22 [3882] [INFO] Booting worker with pid: 3882
+2014-05-20 16:03:22 [3883] [INFO] Booting worker with pid: 3883
+2014-05-20 08:03:23 [3883] [DEBUG] GET /
+2014-05-20 08:03:26 [3882] [DEBUG] GET /
+2014-05-20 08:10:49 [3883] [INFO] Worker exiting (pid: 3883)
+2014-05-20 08:10:49 [3882] [INFO] Worker exiting (pid: 3882)
+2014-05-20 16:10:49 [3875] [INFO] Handling signal: term
+2014-05-20 16:10:49 [3875] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-20 16:10:49 [3936] [INFO] Starting gunicorn 18.0
+2014-05-20 16:10:49 [3936] [DEBUG] Arbiter booted
+2014-05-20 16:10:49 [3936] [INFO] Listening at: http://127.0.0.1:8080 (3936)
+2014-05-20 16:10:49 [3936] [INFO] Using worker: sync
+2014-05-20 16:10:49 [3943] [INFO] Booting worker with pid: 3943
+2014-05-20 16:10:49 [3944] [INFO] Booting worker with pid: 3944
+2014-05-20 08:10:51 [3944] [DEBUG] GET /
+2014-05-20 08:16:47 [3944] [INFO] Worker exiting (pid: 3944)
+2014-05-20 08:16:47 [3943] [INFO] Worker exiting (pid: 3943)
+2014-05-20 16:16:47 [3936] [INFO] Handling signal: term
+2014-05-20 16:16:47 [3936] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-20 16:16:47 [4006] [INFO] Starting gunicorn 18.0
+2014-05-20 16:16:47 [4006] [DEBUG] Arbiter booted
+2014-05-20 16:16:47 [4006] [INFO] Listening at: http://127.0.0.1:8080 (4006)
+2014-05-20 16:16:47 [4006] [INFO] Using worker: sync
+2014-05-20 16:16:47 [4013] [INFO] Booting worker with pid: 4013
+2014-05-20 16:16:47 [4014] [INFO] Booting worker with pid: 4014
+2014-05-20 08:16:50 [4014] [DEBUG] GET /
+2014-05-20 08:16:52 [4013] [DEBUG] GET /
+2014-05-20 08:19:08 [4014] [INFO] Worker exiting (pid: 4014)
+2014-05-20 08:19:08 [4013] [INFO] Worker exiting (pid: 4013)
+2014-05-20 16:19:08 [4006] [INFO] Handling signal: term
+2014-05-20 16:19:08 [4006] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-20 16:19:08 [4056] [INFO] Starting gunicorn 18.0
+2014-05-20 16:19:08 [4056] [DEBUG] Arbiter booted
+2014-05-20 16:19:08 [4056] [INFO] Listening at: http://127.0.0.1:8080 (4056)
+2014-05-20 16:19:08 [4056] [INFO] Using worker: sync
+2014-05-20 16:19:08 [4063] [INFO] Booting worker with pid: 4063
+2014-05-20 16:19:08 [4064] [INFO] Booting worker with pid: 4064
+2014-05-20 08:19:10 [4063] [DEBUG] GET /
+2014-05-20 08:19:11 [4064] [DEBUG] GET /
+2014-05-20 08:22:01 [4064] [INFO] Worker exiting (pid: 4064)
+2014-05-20 08:22:01 [4063] [INFO] Worker exiting (pid: 4063)
+2014-05-20 16:22:01 [4056] [INFO] Handling signal: term
+2014-05-20 16:22:01 [4056] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-20 16:22:02 [4112] [INFO] Starting gunicorn 18.0
+2014-05-20 16:22:02 [4112] [DEBUG] Arbiter booted
+2014-05-20 16:22:02 [4112] [INFO] Listening at: http://127.0.0.1:8080 (4112)
+2014-05-20 16:22:02 [4112] [INFO] Using worker: sync
+2014-05-20 16:22:02 [4119] [INFO] Booting worker with pid: 4119
+2014-05-20 16:22:02 [4120] [INFO] Booting worker with pid: 4120
+2014-05-20 08:22:03 [4120] [DEBUG] GET /
+2014-05-20 16:38:48 [4112] [INFO] Handling signal: term
+2014-05-20 08:38:48 [4120] [INFO] Worker exiting (pid: 4120)
+2014-05-20 08:38:48 [4119] [INFO] Worker exiting (pid: 4119)
+2014-05-20 16:38:48 [4112] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-20 16:38:48 [4256] [INFO] Starting gunicorn 18.0
+2014-05-20 16:38:48 [4256] [DEBUG] Arbiter booted
+2014-05-20 16:38:48 [4256] [INFO] Listening at: http://127.0.0.1:8080 (4256)
+2014-05-20 16:38:48 [4256] [INFO] Using worker: sync
+2014-05-20 16:38:48 [4263] [INFO] Booting worker with pid: 4263
+2014-05-20 16:38:48 [4264] [INFO] Booting worker with pid: 4264
+2014-05-20 08:38:51 [4263] [DEBUG] GET /
+2014-05-20 08:38:55 [4264] [DEBUG] GET /
+2014-05-20 08:46:28 [4264] [INFO] Worker exiting (pid: 4264)
+2014-05-20 08:46:28 [4263] [INFO] Worker exiting (pid: 4263)
+2014-05-20 16:46:28 [4256] [INFO] Handling signal: term
+2014-05-20 16:46:28 [4256] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-20 16:47:14 [884] [INFO] Starting gunicorn 18.0
+2014-05-20 16:47:14 [884] [DEBUG] Arbiter booted
+2014-05-20 16:47:14 [884] [INFO] Listening at: http://127.0.0.1:8080 (884)
+2014-05-20 16:47:14 [884] [INFO] Using worker: sync
+2014-05-20 16:47:14 [1408] [INFO] Booting worker with pid: 1408
+2014-05-20 16:47:14 [1417] [INFO] Booting worker with pid: 1417
+2014-05-20 16:47:26 [884] [CRITICAL] WORKER TIMEOUT (pid:1408)
+2014-05-20 16:47:26 [884] [CRITICAL] WORKER TIMEOUT (pid:1417)
+2014-05-20 16:47:26 [884] [CRITICAL] WORKER TIMEOUT (pid:1408)
+2014-05-20 16:47:26 [884] [CRITICAL] WORKER TIMEOUT (pid:1417)
+2014-05-20 16:47:26 [884] [CRITICAL] WORKER TIMEOUT (pid:1417)
+2014-05-20 16:47:26 [2467] [INFO] Booting worker with pid: 2467
+2014-05-20 16:47:26 [2468] [INFO] Booting worker with pid: 2468
+2014-05-20 08:47:58 [2468] [INFO] Worker exiting (pid: 2468)
+2014-05-20 16:47:58 [884] [INFO] Handling signal: term
+2014-05-20 08:47:58 [2467] [INFO] Worker exiting (pid: 2467)
+2014-05-20 16:47:58 [884] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-20 16:47:58 [3312] [INFO] Starting gunicorn 18.0
+2014-05-20 16:47:58 [3312] [DEBUG] Arbiter booted
+2014-05-20 16:47:58 [3312] [INFO] Listening at: http://127.0.0.1:8080 (3312)
+2014-05-20 16:47:58 [3312] [INFO] Using worker: sync
+2014-05-20 16:47:58 [3319] [INFO] Booting worker with pid: 3319
+2014-05-20 16:47:58 [3320] [INFO] Booting worker with pid: 3320
+2014-05-20 08:48:06 [3320] [DEBUG] GET /
+2014-05-20 08:48:07 [3319] [DEBUG] GET /favicon.ico
+2014-05-20 08:48:07 [3319] [DEBUG] Ignoring EPIPE
+2014-05-20 08:48:07 [3320] [DEBUG] GET /favicon.ico
+2014-05-20 08:55:31 [3319] [INFO] Worker exiting (pid: 3319)
+2014-05-20 08:55:31 [3320] [INFO] Worker exiting (pid: 3320)
+2014-05-20 16:55:31 [3312] [INFO] Handling signal: term
+2014-05-20 16:55:31 [3312] [INFO] Shutting down: Master
