@@ -33,6 +33,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
+    'grappelli',
+    'filebrowser',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,7 +42,8 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'question',
-)
+    )
+
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -49,6 +52,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
 )
 
 ROOT_URLCONF = 'cbims.urls'
@@ -91,3 +95,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATIC_ROOT = DOCUMENT_ROOT + '/static'
+
+MEDIA_URL = '/media/'
+
+MEDIA_ROOT = DOCUMENT_ROOT + '/media'
+

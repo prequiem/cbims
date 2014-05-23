@@ -676,3 +676,118 @@
 2014-05-20 08:55:31 [3320] [INFO] Worker exiting (pid: 3320)
 2014-05-20 16:55:31 [3312] [INFO] Handling signal: term
 2014-05-20 16:55:31 [3312] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-22 09:03:02 [869] [INFO] Starting gunicorn 18.0
+2014-05-22 09:03:02 [869] [DEBUG] Arbiter booted
+2014-05-22 09:03:02 [869] [INFO] Listening at: http://127.0.0.1:8080 (869)
+2014-05-22 09:03:02 [869] [INFO] Using worker: sync
+2014-05-22 09:03:02 [1171] [INFO] Booting worker with pid: 1171
+2014-05-22 09:03:02 [1190] [INFO] Booting worker with pid: 1190
+2014-05-22 09:03:12 [869] [CRITICAL] WORKER TIMEOUT (pid:1171)
+2014-05-22 09:03:12 [869] [CRITICAL] WORKER TIMEOUT (pid:1190)
+2014-05-22 09:03:12 [869] [CRITICAL] WORKER TIMEOUT (pid:1171)
+2014-05-22 09:03:12 [869] [CRITICAL] WORKER TIMEOUT (pid:1190)
+2014-05-22 09:03:12 [869] [CRITICAL] WORKER TIMEOUT (pid:1190)
+2014-05-22 09:03:12 [1976] [INFO] Booting worker with pid: 1976
+2014-05-22 09:03:12 [1977] [INFO] Booting worker with pid: 1977
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-23 15:09:49 [913] [INFO] Starting gunicorn 18.0
+2014-05-23 15:09:49 [913] [DEBUG] Arbiter booted
+2014-05-23 15:09:49 [913] [INFO] Listening at: http://127.0.0.1:8080 (913)
+2014-05-23 15:09:49 [913] [INFO] Using worker: sync
+2014-05-23 15:09:49 [1163] [INFO] Booting worker with pid: 1163
+2014-05-23 15:09:49 [1178] [INFO] Booting worker with pid: 1178
+2014-05-23 15:10:00 [913] [CRITICAL] WORKER TIMEOUT (pid:1178)
+2014-05-23 15:10:00 [913] [CRITICAL] WORKER TIMEOUT (pid:1163)
+2014-05-23 15:10:00 [913] [CRITICAL] WORKER TIMEOUT (pid:1178)
+2014-05-23 15:10:00 [913] [CRITICAL] WORKER TIMEOUT (pid:1163)
+2014-05-23 15:10:00 [913] [CRITICAL] WORKER TIMEOUT (pid:1178)
+2014-05-23 15:10:00 [2161] [INFO] Booting worker with pid: 2161
+2014-05-23 15:10:00 [2164] [INFO] Booting worker with pid: 2164
+2014-05-23 09:40:42 [2161] [INFO] Worker exiting (pid: 2161)
+2014-05-23 09:40:42 [2164] [INFO] Worker exiting (pid: 2164)
+2014-05-23 17:40:42 [913] [INFO] Handling signal: term
+2014-05-23 17:40:42 [913] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-23 17:40:42 [5524] [INFO] Starting gunicorn 18.0
+2014-05-23 17:40:42 [5524] [DEBUG] Arbiter booted
+2014-05-23 17:40:42 [5524] [INFO] Listening at: http://127.0.0.1:8080 (5524)
+2014-05-23 17:40:42 [5524] [INFO] Using worker: sync
+2014-05-23 17:40:42 [5531] [INFO] Booting worker with pid: 5531
+2014-05-23 17:40:42 [5532] [INFO] Booting worker with pid: 5532
+2014-05-23 09:40:58 [5532] [DEBUG] GET /
+2014-05-23 09:40:58 [5531] [DEBUG] GET /favicon.ico
+2014-05-23 09:41:32 [5532] [DEBUG] GET /admin/filebrowser/browse
+2014-05-23 09:41:32 [5532] [DEBUG] GET /admin/filebrowser/browse/
+2014-05-23 09:41:32 [5531] [DEBUG] GET /static/grappelli/jquery/ui/css/custom-theme/jquery-ui-1.8.18.custom.css
+2014-05-23 09:41:32 [5531] [DEBUG] GET /static/grappelli/stylesheets/screen.css
+2014-05-23 09:41:32 [5532] [DEBUG] GET /static/grappelli/stylesheets/mueller/grid/output.css
+2014-05-23 09:41:32 [5531] [DEBUG] GET /static/grappelli/jquery/jquery-1.7.2.min.js
+2014-05-23 09:41:32 [5531] [DEBUG] GET /static/grappelli/jquery/ui/js/jquery-ui-1.8.18.custom.min.js
+2014-05-23 09:41:32 [5532] [DEBUG] GET /static/grappelli/js/grappelli.min.js
+2014-05-23 09:41:32 [5531] [DEBUG] GET /static/grappelli/jquery/jquery-1.7.2.min.js
+2014-05-23 09:41:32 [5532] [DEBUG] GET /static/grappelli/jquery/ui/js/jquery-ui-1.8.18.custom.min.js
+2014-05-23 09:41:32 [5531] [DEBUG] GET /static/grappelli/js/grappelli.min.js
+2014-05-23 09:41:44 [5531] [DEBUG] POST /admin/filebrowser/browse/
+2014-05-23 09:41:44 [5532] [DEBUG] GET /admin/filebrowser/browse/
+2014-05-23 09:41:44 [5531] [DEBUG] GET /static/grappelli/jquery/ui/css/custom-theme/jquery-ui-1.8.18.custom.css
+2014-05-23 09:41:44 [5531] [DEBUG] GET /static/grappelli/stylesheets/mueller/grid/output.css
+2014-05-23 09:41:44 [5531] [DEBUG] GET /static/filebrowser/css/filebrowser.css
+2014-05-23 09:41:44 [5531] [DEBUG] GET /static/grappelli/jquery/jquery-1.7.2.min.js
+2014-05-23 09:41:44 [5531] [DEBUG] GET /static/grappelli/jquery/ui/js/jquery-ui-1.8.18.custom.min.js
+2014-05-23 09:41:44 [5532] [DEBUG] GET /static/grappelli/stylesheets/screen.css
+2014-05-23 09:41:44 [5532] [DEBUG] GET /static/grappelli/js/grappelli.min.js
+2014-05-23 09:41:44 [5532] [DEBUG] GET /static/grappelli/jquery/jquery-1.7.2.min.js
+2014-05-23 09:41:44 [5532] [DEBUG] GET /static/grappelli/jquery/ui/js/jquery-ui-1.8.18.custom.min.js
+2014-05-23 09:41:44 [5531] [DEBUG] GET /static/grappelli/js/grappelli.min.js
+2014-05-23 09:41:51 [5532] [DEBUG] GET /admin/filebrowser/upload/
+2014-05-23 09:41:51 [5531] [DEBUG] GET /static/grappelli/jquery/ui/css/custom-theme/jquery-ui-1.8.18.custom.css
+2014-05-23 09:41:51 [5531] [DEBUG] GET /static/grappelli/stylesheets/screen.css
+2014-05-23 09:41:51 [5532] [DEBUG] GET /static/grappelli/stylesheets/mueller/grid/output.css
+2014-05-23 09:41:51 [5531] [DEBUG] GET /static/filebrowser/css/filebrowser.css
+2014-05-23 09:41:51 [5532] [DEBUG] GET /static/grappelli/jquery/jquery-1.7.2.min.js
+2014-05-23 09:41:51 [5532] [DEBUG] GET /static/grappelli/jquery/ui/js/jquery-ui-1.8.18.custom.min.js
+2014-05-23 09:41:51 [5532] [DEBUG] GET /static/grappelli/js/grappelli.min.js
+2014-05-23 09:41:51 [5532] [DEBUG] GET /admin/jsi18n/
+2014-05-23 09:41:51 [5531] [DEBUG] GET /static/filebrowser/js/fileuploader.js
+2014-05-23 09:41:52 [5531] [DEBUG] GET /static/grappelli/jquery/jquery-1.7.2.min.js
+2014-05-23 09:41:52 [5531] [DEBUG] GET /static/grappelli/jquery/ui/js/jquery-ui-1.8.18.custom.min.js
+2014-05-23 09:41:52 [5532] [DEBUG] GET /static/grappelli/js/grappelli.min.js
+2014-05-23 09:41:52 [5531] [DEBUG] GET /static/filebrowser/js/fileuploader.js
+2014-05-23 09:46:29 [5531] [INFO] Worker exiting (pid: 5531)
+2014-05-23 09:46:29 [5532] [INFO] Worker exiting (pid: 5532)
+2014-05-23 17:46:29 [5524] [INFO] Handling signal: term
+2014-05-23 17:46:29 [5524] [INFO] Shutting down: Master
