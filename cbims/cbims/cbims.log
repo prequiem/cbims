@@ -791,3 +791,29 @@
 2014-05-23 09:46:29 [5532] [INFO] Worker exiting (pid: 5532)
 2014-05-23 17:46:29 [5524] [INFO] Handling signal: term
 2014-05-23 17:46:29 [5524] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-26 09:34:10 [869] [INFO] Starting gunicorn 18.0
+2014-05-26 09:34:10 [869] [DEBUG] Arbiter booted
+2014-05-26 09:34:11 [869] [INFO] Listening at: http://127.0.0.1:8080 (869)
+2014-05-26 09:34:11 [869] [INFO] Using worker: sync
+2014-05-26 09:34:11 [1373] [INFO] Booting worker with pid: 1373
+2014-05-26 09:34:11 [1374] [INFO] Booting worker with pid: 1374
+2014-05-26 09:34:27 [869] [CRITICAL] WORKER TIMEOUT (pid:1373)
+2014-05-26 09:34:27 [869] [CRITICAL] WORKER TIMEOUT (pid:1374)
+2014-05-26 09:34:27 [869] [CRITICAL] WORKER TIMEOUT (pid:1373)
+2014-05-26 09:34:27 [869] [CRITICAL] WORKER TIMEOUT (pid:1374)
+2014-05-26 09:34:27 [869] [CRITICAL] WORKER TIMEOUT (pid:1373)
+2014-05-26 09:34:27 [2426] [INFO] Booting worker with pid: 2426
+2014-05-26 09:34:27 [869] [CRITICAL] WORKER TIMEOUT (pid:1373)
+2014-05-26 09:34:27 [2432] [INFO] Booting worker with pid: 2432
