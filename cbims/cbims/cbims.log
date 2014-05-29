@@ -835,3 +835,28 @@
 2014-05-27 10:19:24 [919] [INFO] Using worker: sync
 2014-05-27 10:19:24 [1222] [INFO] Booting worker with pid: 1222
 2014-05-27 10:19:24 [1237] [INFO] Booting worker with pid: 1237
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-28 14:54:58 [877] [INFO] Starting gunicorn 18.0
+2014-05-28 14:54:58 [877] [DEBUG] Arbiter booted
+2014-05-28 14:54:58 [877] [INFO] Listening at: http://127.0.0.1:8080 (877)
+2014-05-28 14:54:58 [877] [INFO] Using worker: sync
+2014-05-28 14:54:58 [1132] [INFO] Booting worker with pid: 1132
+2014-05-28 14:54:58 [1140] [INFO] Booting worker with pid: 1140
+2014-05-28 14:55:19 [877] [CRITICAL] WORKER TIMEOUT (pid:1140)
+2014-05-28 14:55:19 [877] [CRITICAL] WORKER TIMEOUT (pid:1132)
+2014-05-28 14:55:19 [877] [CRITICAL] WORKER TIMEOUT (pid:1140)
+2014-05-28 14:55:19 [877] [CRITICAL] WORKER TIMEOUT (pid:1132)
+2014-05-28 14:55:19 [877] [CRITICAL] WORKER TIMEOUT (pid:1132)
+2014-05-28 14:55:19 [2449] [INFO] Booting worker with pid: 2449
+2014-05-28 14:55:19 [2450] [INFO] Booting worker with pid: 2450

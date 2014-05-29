@@ -26,21 +26,28 @@ SECRET_KEY = '70fa=hrpcf53lmbqnt=6luh^7ag(&b&agjd1%m#te@&4%omc=o'
 DEBUG = True
 
 TEMPLATE_DEBUG = True
-
+AUTH_USER_MODEL = 'account.User'
 ALLOWED_HOSTS = []
 
 
 # Application definition
 
 INSTALLED_APPS = (
+    # third party
+    'south',
     'grappelli',
     'filebrowser',
+
+    # django
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    # mine
+    'account',
     'question',
     )
 
