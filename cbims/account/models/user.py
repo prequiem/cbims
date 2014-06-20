@@ -63,7 +63,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     # statistic information
     score = models.IntegerField(u'积分', default = 0)
     accept_count = models.PositiveIntegerField(u'通过题目数', default = 0)
-    level = models.IntegerField(u'天梯等级', choices = LEVEL_CHOICES, default = 1)
+    level = models.IntegerField(u'天梯等级', choices = QUESTION_LEVEL_CHOICES, default = 1)
     solution_count = models.IntegerField(u'发布的题解个数', default = 0)
 
     # SNS

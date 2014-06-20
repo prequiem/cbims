@@ -24,7 +24,7 @@ PROBLEM_STATUS = (
     (5, u'已删除'),
     )
 
-LEVEL_CHOICES = (
+QUESTION_LEVEL_CHOICES = (
     (0, u'一星'),
     (1, u'二星'),
     (2, u'三星'),
@@ -86,4 +86,31 @@ PRIVACY_CHOICES = (
     (4, u'对关注我和我关注的人公开'),
     (5, u'对互相关注的人公开'),
     (6, u'不公开')
+)
+
+#SINGLE_CHOICE
+SINGLE_CHOICES = (
+    (0, 'A'),
+    (1, 'B'),
+    (2, 'C'),
+    (3, 'D')
+)
+
+#REGULATION_LEVEL
+REGULATION_LEVEL_CHOICES = (
+    (0, '国家标准'),
+    (1, '地方标准'),
+    (2, '行业标准')
+)
+
+USER_LEVEL_CHOICES = (
+    (0, '初级用户'),
+    (1, '中级用户'),
+    (2, '高级用户')
+)
+
+SOURCE_CHOICES = (
+    (0, '自检题库'),
+    (1, ''),
+    (2, '')
 )

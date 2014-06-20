@@ -1,8 +1,10 @@
+#coding: utf-8
 from django.db import models
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes import generic
 from website.models import Tag
 from website.constant import *
+from account.models import User
 
 class Question(models.Model):
 
@@ -11,8 +13,8 @@ class Question(models.Model):
 
     # basic info 
     number = models.PositiveIntegerField('编号',)
-    discipline = models.IntegerField('专业'， choices = DISCIPLINE_CHOICES, default = 0)
-    level = models.IntegerField('难度等级', choices = LEVEL_CHOICES, default = 3)
+    discipline = models.IntegerField('专业', choices = DISCIPLINE_CHOICES, default = 0)
+    level = models.IntegerField('难度等级', choices = QUESTION_LEVEL_CHOICES, default = 3)
 
     # additional info
     content_type = models.ForeignKey(ContentType)
@@ -33,7 +35,7 @@ class Question(models.Model):
 
     # filter info
     tags = models.ManyToManyField(Tag, verbose_name = u'标签', blank = True)
-    source = models.IntegerField('题目来源', choices = SOURCE_CHOICES, default = '自定义题库')
+    source = models.IntegerField('题目来源', choices = SOURCE_CHOICES, default = 0)
 
     class Meta:
         ordering = ('id', )

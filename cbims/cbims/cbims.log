@@ -860,3 +860,97 @@
 2014-05-28 14:55:19 [877] [CRITICAL] WORKER TIMEOUT (pid:1132)
 2014-05-28 14:55:19 [2449] [INFO] Booting worker with pid: 2449
 2014-05-28 14:55:19 [2450] [INFO] Booting worker with pid: 2450
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-05-30 09:48:58 [907] [INFO] Starting gunicorn 18.0
+2014-05-30 09:48:58 [907] [DEBUG] Arbiter booted
+2014-05-30 09:48:58 [907] [INFO] Listening at: http://127.0.0.1:8080 (907)
+2014-05-30 09:48:58 [907] [INFO] Using worker: sync
+2014-05-30 09:48:58 [1216] [INFO] Booting worker with pid: 1216
+2014-05-30 09:48:58 [1237] [INFO] Booting worker with pid: 1237
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-06-16 11:33:10 [913] [INFO] Starting gunicorn 18.0
+2014-06-16 11:33:10 [913] [DEBUG] Arbiter booted
+2014-06-16 11:33:10 [913] [INFO] Listening at: http://127.0.0.1:8080 (913)
+2014-06-16 11:33:10 [913] [INFO] Using worker: sync
+2014-06-16 11:33:10 [1151] [INFO] Booting worker with pid: 1151
+2014-06-16 11:33:10 [1168] [INFO] Booting worker with pid: 1168
+2014-06-16 11:33:29 [913] [CRITICAL] WORKER TIMEOUT (pid:1168)
+2014-06-16 11:33:29 [913] [CRITICAL] WORKER TIMEOUT (pid:1151)
+2014-06-16 11:33:29 [913] [CRITICAL] WORKER TIMEOUT (pid:1168)
+2014-06-16 11:33:29 [913] [CRITICAL] WORKER TIMEOUT (pid:1151)
+2014-06-16 11:33:29 [913] [CRITICAL] WORKER TIMEOUT (pid:1168)
+2014-06-16 11:33:29 [2109] [INFO] Booting worker with pid: 2109
+2014-06-16 11:33:29 [2110] [INFO] Booting worker with pid: 2110
+2014-06-16 08:55:54 [2109] [INFO] Worker exiting (pid: 2109)
+2014-06-16 16:55:54 [913] [INFO] Handling signal: term
+2014-06-16 08:55:54 [2110] [INFO] Worker exiting (pid: 2110)
+2014-06-16 16:55:54 [913] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-06-16 16:55:54 [5554] [INFO] Starting gunicorn 18.0
+2014-06-16 16:55:54 [5554] [DEBUG] Arbiter booted
+2014-06-16 16:55:54 [5554] [INFO] Listening at: http://127.0.0.1:8080 (5554)
+2014-06-16 16:55:54 [5554] [INFO] Using worker: sync
+2014-06-16 16:55:54 [5561] [INFO] Booting worker with pid: 5561
+2014-06-16 16:55:54 [5562] [INFO] Booting worker with pid: 5562
+2014-06-16 08:58:05 [5561] [INFO] Worker exiting (pid: 5561)
+2014-06-16 16:58:05 [5554] [INFO] Handling signal: term
+2014-06-16 08:58:05 [5562] [INFO] Worker exiting (pid: 5562)
+2014-06-16 16:58:05 [5554] [INFO] Shutting down: Master
+!!!
+!!! WARNING: This command is deprecated.
+!!! 
+!!!     You should now run your application with the WSGI interface
+!!!     installed with your project. Ex.:
+!!! 
+!!!         gunicorn myproject.wsgi:application
+!!! 
+!!!     See https://docs.djangoproject.com/en/1.4/howto/deployment/wsgi/gunicorn/
+!!!     for more info.
+!!!
+
+2014-06-17 10:53:42 [879] [INFO] Starting gunicorn 18.0
+2014-06-17 10:53:42 [879] [DEBUG] Arbiter booted
+2014-06-17 10:53:42 [879] [INFO] Listening at: http://127.0.0.1:8080 (879)
+2014-06-17 10:53:42 [879] [INFO] Using worker: sync
+2014-06-17 10:53:42 [1594] [INFO] Booting worker with pid: 1594
+2014-06-17 10:53:42 [1596] [INFO] Booting worker with pid: 1596
+2014-06-17 10:58:24 [879] [CRITICAL] WORKER TIMEOUT (pid:1594)
+2014-06-17 10:58:24 [879] [CRITICAL] WORKER TIMEOUT (pid:1596)
+2014-06-17 10:58:24 [879] [CRITICAL] WORKER TIMEOUT (pid:1594)
+2014-06-17 10:58:24 [879] [CRITICAL] WORKER TIMEOUT (pid:1596)
+2014-06-17 10:58:24 [879] [CRITICAL] WORKER TIMEOUT (pid:1594)
+2014-06-17 10:58:24 [1946] [INFO] Booting worker with pid: 1946
+2014-06-17 10:58:25 [1949] [INFO] Booting worker with pid: 1949

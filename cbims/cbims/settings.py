@@ -49,6 +49,8 @@ INSTALLED_APPS = (
     # mine
     'account',
     'question',
+    'regulation',
+    'website',
     )
 
 

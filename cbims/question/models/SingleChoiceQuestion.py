@@ -1,6 +1,9 @@
+# coding: utf-8
 from django.db import models
+from website.constant import *
+from regulation.models import Clause
 
-class SingleChoiceQuestion（models.Model):
+class SingleChoiceQuestion(models.Model):
 
     # Answer info
     choice = models.IntegerField('正确答案', choices = SINGLE_CHOICES)

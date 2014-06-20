@@ -1,7 +1,6 @@
 # coding: utf-8
-
 from django.db import models
-from django.contrib.auth.models import User
+from account.models import User
 
 class Tag(models.Model):
     name = models.CharField('标签名', max_length = 255, unique = True)
@@ -16,12 +15,3 @@ class Tag(models.Model):
     class Meta:
         ordering = ('tag_type', 'order', 'name')
         app_label = 'website'
-                                                            
-    def n_problems(self):
-        return self.problem_set.filter(status = 1).count()
-                                                                                
-    def __str__(self):
-        return self.__unicode__()
-                                                                                                
-    def __strstr__(self):                                                                                return self.__unicode__()
-                                                                                                     def __unicode__(self):                                                                               return u'%s %s'%(self.tag_type, self.name)
