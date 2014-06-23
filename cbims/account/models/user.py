@@ -37,24 +37,21 @@ class CbimsUserManager(BaseUserManager):
         return user
 
 class User(AbstractBaseUser, PermissionsMixin):
-    email = models.EmailField(
-        verbose_name = u'邮箱地址',
-        max_length = 255,
-        unique = True
-        )
-    username = models.CharField(u'用户名', max_length = 100, unique = True, db_index = True)
+    # auth information
+    username = models.CharField(verbose_name = u'用户名', max_length = 100, unique = True, db_index = True)
+    email = models.EmailField(verbose_name = u'邮箱地址', max_length = 255, unique = True)
     is_active = models.BooleanField(default = True)
     is_staff = models.BooleanField(default = False)
 
     # admin information
+    last_login_datetime = models.DateTimeField(u'最后登录时间', auto_now_add = True)
     upload_datetime = models.DateTimeField(u'允许上传题目的时间', auto_now_add = True)
     verified = models.BooleanField(u'通过验证', default = False)
     ipaddress = models.IPAddressField(u'最后一次登录地址', blank = True, null = True)
 
-    # basic information
+    # personal information
     province = models.CharField(max_length = 50, choices = PROVINCE_CHOICES, default = u'北京', blank = True)
     institute = models.ForeignKey(Institute, verbose_name = u'单位', blank = True, null = True)
-
     name = models.CharField(u'真实姓名', max_length = 16, blank = True, null = True)
     qq = models.CharField(u'QQ', max_length = 16, blank = True, null = True)
     mobile = models.CharField(u'手机号', max_length = 20, blank = True, null = True)
@@ -62,9 +59,9 @@ class User(AbstractBaseUser, PermissionsMixin):
     
     # statistic information
     score = models.IntegerField(u'积分', default = 0)
-    accept_count = models.PositiveIntegerField(u'通过题目数', default = 0)
-    level = models.IntegerField(u'天梯等级', choices = QUESTION_LEVEL_CHOICES, default = 1)
-    solution_count = models.IntegerField(u'发布的题解个数', default = 0)
+    answered_count = models.PositiveIntegerField(u'通过的题数', default = 0)
+    level = models.IntegerField(u'用户等级', choices = LEVEL_CHOICES, default = 1)
+    upload_count = models.IntegerField(u'发布的题数', default = 0)
 
     # SNS
     gender = models.CharField(u'性别', max_length = 1, choices = GENDER_CHOICES, default = 'F')
