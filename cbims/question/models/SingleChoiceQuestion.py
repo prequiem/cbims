@@ -10,4 +10,7 @@ class SingleChoiceQuestion(models.Model):
     explanation = models.TextField('答案解析')
     clause_related = models.ManyToManyField(Clause, verbose_name = u'规范条文', blank = True)
     
+    class Meta:
+        ordering = ('id', )
+        app_label = 'question'
 

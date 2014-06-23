@@ -10,3 +10,7 @@ class Choice(models.Model):
     text = models.CharField(u'选项内容', max_length = 255, blank = False, null = True)
     image = models.ImageField(upload_to = 'media/uploads/')
 
+    class Meta:
+        ordering = ('id', )
+        app_label = 'question'
+

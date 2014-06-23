@@ -110,7 +110,7 @@ USER_LEVEL_CHOICES = (
 )
 
 SOURCE_CHOICES = (
-    (0, '自检题库'),
+    (0, '自定义题库'),
     (1, ''),
     (2, '')
 )

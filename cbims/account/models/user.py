@@ -44,7 +44,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     is_staff = models.BooleanField(default = False)
 
     # admin information
-    last_login_datetime = models.DateTimeField(u'最后登录时间', auto_now_add = True)
+    last_login_datetime = models.DateTimeField(u'最后登录时间', auto_now_add = True, null = True)
     upload_datetime = models.DateTimeField(u'允许上传题目的时间', auto_now_add = True)
     verified = models.BooleanField(u'通过验证', default = False)
     ipaddress = models.IPAddressField(u'最后一次登录地址', blank = True, null = True)
@@ -60,7 +60,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     # statistic information
     score = models.IntegerField(u'积分', default = 0)
     answered_count = models.PositiveIntegerField(u'通过的题数', default = 0)
-    level = models.IntegerField(u'用户等级', choices = LEVEL_CHOICES, default = 1)
+    level = models.IntegerField(u'用户等级', choices = USER_LEVEL_CHOICES, default = 1)
     upload_count = models.IntegerField(u'发布的题数', default = 0)
 
     # SNS
