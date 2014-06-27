@@ -12,3 +12,7 @@ class Clause(models.Model):
     is_mandatory = models.BooleanField(u'是否强条', default = False)
     creater = models.ForeignKey(User, verbose_name = '创建人', related_name = 'first')
     last_editor = models.ForeignKey(User, verbose_name = '最后编辑人', related_name = 'last')
+    
+    class Meta:
+        ordering = ('number',)
+        app_label = 'regulation'  

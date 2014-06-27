@@ -8,3 +8,6 @@ class Chapter(models.Model):
     number = models.IntegerField()
     title = models.CharField('章名', max_length = 255)
 
+    class Meta:
+        ordering = ('number',)
+        app_label = 'regulation'  

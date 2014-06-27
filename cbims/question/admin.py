@@ -6,10 +6,13 @@ from models import *
 class ChoiceAdmin(admin.ModelAdmin):
     list_display = ('question', 'title', 'text', 'image')
 
+class SingleChoiceQuestionAdmin(admin.ModelAdmin):
+    list_display = ('right_choice', 'explanation', 'clause_related')
 
-
+class QuestionAdmin(admin.ModelAdmin):
+    list_display = ('status', 'number', 'discipline', 'level', 'content_type', 'author', 'tags', 'source')
 
 admin.site.register(Choice, ChoiceAdmin)
-
-
+admin.site.register(SingleChoiceQuestion, SingleChoiceQuestionAdmin)
+admin.site.register(Question, QuestionAdmin)
 # Register your models here.
