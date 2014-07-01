@@ -7,10 +7,10 @@ class ChoiceAdmin(admin.ModelAdmin):
     list_display = ('question', 'title', 'text', 'image')
 
 class SingleChoiceQuestionAdmin(admin.ModelAdmin):
-    list_display = ('right_choice', 'explanation', 'clause_related')
+    list_display = ('right_choice', 'explanation')
 
 class QuestionAdmin(admin.ModelAdmin):
-    list_display = ('status', 'number', 'discipline', 'level', 'content_type', 'author', 'tags', 'source')
+    list_display = ('status', 'number', 'discipline', 'level', 'content_type', 'author', 'source')
 
 admin.site.register(Choice, ChoiceAdmin)
 admin.site.register(SingleChoiceQuestion, SingleChoiceQuestionAdmin)

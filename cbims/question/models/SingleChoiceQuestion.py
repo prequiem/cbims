@@ -14,3 +14,5 @@ class SingleChoiceQuestion(models.Model):
         ordering = ('id', )
         app_label = 'question'
 
+        
+
