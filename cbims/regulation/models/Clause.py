@@ -15,4 +15,10 @@ class Clause(models.Model):
     
     class Meta:
         ordering = ('number',)
-        app_label = 'regulation'  
+        app_label = 'regulation' 
+
+    def __str__(self):
+        return self.__unicode__()
+
+    def __unicode__(self):
+        return u"%s %s"%(self.section, self.number)
