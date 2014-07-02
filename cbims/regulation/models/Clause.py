@@ -6,7 +6,7 @@ from account.models import User
 
 class Clause(models.Model):
     section = models.ForeignKey(Section, verbose_name = u'节')
-    number = models.IntegerField()
+    number = models.IntegerField(u'条文号')
     content = models.TextField(u'条文内容')
     explanation = models.TextField(u'条文解释')
     is_mandatory = models.BooleanField(u'是否强条', default = False)

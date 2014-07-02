@@ -50,7 +50,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     ipaddress = models.IPAddressField(u'最后一次登录地址', blank = True, null = True)
 
     # personal information
-    province = models.CharField(max_length = 50, choices = PROVINCE_CHOICES, default = u'北京', blank = True)
+    province = models.IntegerField(u'省份', choices = PROVINCE_CHOICES, default = 1, blank = True)
     institute = models.ForeignKey(Institute, verbose_name = u'单位', blank = True, null = True)
     name = models.CharField(u'真实姓名', max_length = 16, blank = True, null = True)
     qq = models.CharField(u'QQ', max_length = 16, blank = True, null = True)

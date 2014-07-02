@@ -12,3 +12,9 @@ class Regulation(models.Model):
     class Meta:
         ordering = ('serial_number',)
         app_label = 'regulation'
+
+    def __str__(self):
+        return self.__unicode__()
+
+    def __unicode__(self):
+        return u"%s %s"%(self.serial_number, self.title)
