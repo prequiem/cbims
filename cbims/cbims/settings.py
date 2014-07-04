@@ -37,6 +37,8 @@ INSTALLED_APPS = (
     'south',
     'grappelli',
     'filebrowser',
+    'crispy_forms',
+    'captcha',
 
     # django
     'django.contrib.admin',
