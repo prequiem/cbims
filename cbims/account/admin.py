@@ -48,13 +48,13 @@ class MyUserAdmin(UserAdmin):
     form = UserChangeForm
     add_form = UserCreationForm
 
-    list_display = ('username', 'email', 'is_superuser')
+    list_display = ('username', 'email', 'is_superuser', 'is_staff')
     list_filter = ('is_superuser',)
 
     fieldsets = (
         (None, {'fields': ('username', 'email', 'password')}),
         ('Personal info', {'fields': ('province','score')}),
-        ('Permissions', {'fields': ('is_superuser',)}),
+        ('Permissions', {'fields': ('is_superuser', 'is_staff',)}),
         #('Important dates', {'fields': ('last_login',)}),
         )
 

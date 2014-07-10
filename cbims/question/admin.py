@@ -10,7 +10,7 @@ class SingleChoiceQuestionAdmin(admin.ModelAdmin):
     list_display = ('right_choice', 'explanation')
 
 class QuestionAdmin(admin.ModelAdmin):
-    list_display = ('status', 'number', 'discipline', 'level', 'content_type', 'author', 'source')
+    list_display = ('status', 'number', 'discipline', 'level', 'content_type', 'author', 'source', 'content_object')
 
 admin.site.register(Choice, ChoiceAdmin)
 admin.site.register(SingleChoiceQuestion, SingleChoiceQuestionAdmin)

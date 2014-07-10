@@ -17,13 +17,14 @@ class Question(models.Model):
     level = models.IntegerField('难度等级', choices = QUESTION_LEVEL_CHOICES, default = 3)
 
     # additional info
-    content_type = models.ForeignKey(ContentType)
+    limit = models.Q(app_label = 'question', model = 'singlechoicequestion')
+    content_type = models.ForeignKey(ContentType, verbose_name = u'题目类型', limit_choices_to = limit)
     object_id = models.PositiveIntegerField()
     content_object = generic.GenericForeignKey('content_type', 'object_id')
 
     # SNS info
-    like = models.IntegerField(u'推荐', default = 0)
-    dislike = models.IntegerField(u'水题', default = 0)
+    like = models.IntegerField(u'推荐人数', default = 0)
+    dislike = models.IntegerField(u'不推荐人数', default = 0)
 
     # author info
     author = models.ForeignKey(User, verbose_name = '上传者', blank = True, null = True)
