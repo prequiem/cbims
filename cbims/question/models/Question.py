@@ -12,7 +12,6 @@ class Question(models.Model):
     status = models.IntegerField('审核状态', choices = PROBLEM_STATUS)
 
     # basic info 
-    number = models.PositiveIntegerField('编号',)
     discipline = models.IntegerField('专业', choices = DISCIPLINE_CHOICES, default = 0)
     level = models.IntegerField('难度等级', choices = QUESTION_LEVEL_CHOICES, default = 3)
 
@@ -37,6 +36,7 @@ class Question(models.Model):
     # filter info
     tags = models.ManyToManyField(Tag, verbose_name = u'标签', blank = True)
     source = models.IntegerField('题目来源', choices = SOURCE_CHOICES, default = 0)
+    number = models.PositiveIntegerField('编号',)
 
     class Meta:
         ordering = ('id', )
