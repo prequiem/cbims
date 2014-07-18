@@ -1,0 +1,28 @@
+{% extends "base/websiteBase.html" %}
+{% block title %}
+创建标签
+{% endblock %}
+{% block body %}
+<div class="container">
+    <div class="span12">
+        <div class="page-header">
+            <h2>
+            创建标签
+            <small>create tag</small>
+            </h2>
+        </div>
+
+        <div class="row-fluid">
+            {% load crispy_forms_tags %}
+            <form class="form-horizontal pull-left span7" action="" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {% crispy form %}
+            </form>
+
+            <div class="span5 alert alert-info">
+                <p>标签创建注意事项：</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
