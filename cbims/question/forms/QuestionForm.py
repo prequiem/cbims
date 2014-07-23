@@ -19,4 +19,4 @@ class QuestionForm(forms.ModelForm):
 
     class Meta:
         model = Question
-        exclude = ('status', 'content_type', 'object_id', 'like', 'dislike', 'author', 'last_modify', 'submit_count', 'wrong_count', 'number', )
+        exclude = ('status', 'object_id', 'like', 'dislike', 'author', 'last_modify', 'submit_count', 'wrong_count', )

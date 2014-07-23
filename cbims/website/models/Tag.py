@@ -14,3 +14,8 @@ class Tag(models.Model):
     class Meta:
         ordering = ( 'order', 'name')
         app_label = 'website'
+
+    def __str__(self):
+        return self.__unicode__()
+    def __unicode__(self):
+        return u"%s"%(self.name)
