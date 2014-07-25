@@ -4,4 +4,5 @@ from question.views import *
 urlpatterns = patterns('',
     #
     url(r'^add/$', question.add),
+    url(r'^add_single_choice_question/', singleChoiceQuestion.add),
     )

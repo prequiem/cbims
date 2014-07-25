@@ -1,2 +1,2 @@
-from .question import *
-
+from question import *
+from singleChoiceQuestion import *

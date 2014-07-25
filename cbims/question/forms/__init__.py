@@ -1,1 +1,2 @@
-from .QuestionForm import *
+from QuestionForm import *
+from SingleChoiceQuestionForm import *
