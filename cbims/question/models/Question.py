@@ -16,8 +16,8 @@ class Question(models.Model):
     level = models.IntegerField('难度等级', choices = QUESTION_LEVEL_CHOICES, default = 3)
 
     # additional info
-    limit = ((models.Q(app_label = 'question', model = 'singlechoicequestion'), u"选择题"),)
-    content_type = models.ForeignKey(ContentType, verbose_name = u'题目类型', choices = limit)
+    limit = models.Q(app_label = 'question', model = 'singlechoicequestion')
+    content_type = models.ForeignKey(ContentType, verbose_name = u'题目类型', limit_choices_to = limit)
     object_id = models.PositiveIntegerField()
     content_object = generic.GenericForeignKey('content_type', 'object_id')
 
