@@ -127,3 +127,5 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     "django.core.context_processors.request",
     "django.core.context_processors.static",
 )
+
+CRISPY_TEMPLATE_PACK = 'bootstrap3'
