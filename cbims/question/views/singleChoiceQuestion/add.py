@@ -16,11 +16,11 @@ def add(request):
             question.author = request.user
             question.last_modify = datetime.datetime.now()
             question.save()      
-            return HttpResponseRedirect("/question/edit_single_choice_question/" + str(scq.id))
+            return HttpResponseRedirect("/question/edit/scq/" + str(scq.id))
         
     else:
         form = SingleChoiceQuestionForm()
-        return render_to_response("question/add_single_choice_question.html", locals(), context_instance = RequestContext(request))
+        return render_to_response("question/add/scq.html", locals(), context_instance = RequestContext(request))
 
             
 
