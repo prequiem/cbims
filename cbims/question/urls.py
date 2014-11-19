@@ -3,5 +3,5 @@ from question.views import *
 
 urlpatterns = patterns('',
     # add single choice question
-    url(r'^add/scq/$', singleChoiceQuestion.add),
+    url(r'^add_scq/$', singleChoiceQuestion.add),
     )
